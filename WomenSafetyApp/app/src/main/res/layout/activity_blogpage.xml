@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="412dp"
+        android:layout_height="735dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906">
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="713dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="62dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/selfdefense" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="25dp"
+                    android:fontFamily="@font/raleway"
+                    android:text="\t\t\tWe all know that our country, India is famous for its different customs and culture throughout
+   the world. In India, it has been a tradition since ancient times that women are given special honour and respect.India is a country where special care is taken of the safety and respect of women. In Indian culture, women have
+   been given the status of Goddess Lakshmi. If we talk about the twenty-first century, then women are working on
+   the shoulders with men in every field, whether it is politics, bank, school, sports, police, defence sector,
+   own business or the desire to fly in the sky is.\n\n
+    \t\t\tAlthough, it is one hundred percent truth that in Indian society, women like Goddess Lakshmi are worshiped but negative
+   aspects towards women cannot be ignored. The importance of protection of women is very important whether it is at home,
+   or in office. The protection of women is very broad in itself, given the increased atrocities against women in the last
+   few years, we cannot say that women in our country are completely safe. Women themselves feel unsafe, especially if they
+   want to go out alone. It is indeed embarrassing for us that women in our country are living in fear.It is not necessary
+   that the oppression of women is only in the late evening or in the night, but such strange cases have emerged from
+   participating by family relatives or in the office. In a survey conducted by an NGO, it was found that the main reasons
+   for these rising crimes were lack of co-operative work in the workplace, police service like openness, alcohol consumption,
+   addiction and lack of toilets.\n\n
+
+    \t\t\tIn the last few years, the level of safety of women is constantly falling. The reason behind this is the continuing increase
+   in crime. From the medieval era to the 21st century, there has been a continuous decline in the situation of women.
+   Women have equal rights for men, they represent half of the population of the country and there are also half partners in
+   development. This argument cannot be denied, that in today’s modern era, women not only advanced men but also two steps
+   ahead. From the President’s Office, she has become the basis of district level plans. Women cannot be imagined without
+   generalization. However, if there is a list of crimes against women in India, then it is too long; it involves acid attack,
+   violence, sexual violence, dowry death, abduction, honour killing, rape, foetal murder, mental harassment etc.
+   \n\n
+    \t\t\tSecurity of women is a social problem, it needs to be resolved as soon as possible. Women have more than half of the
+   population, who suffer from physical, mental and social status. This is an obstacle to the development and progress of the
+   country.Every day and every minute some women of all walks of life (a mother, a sister, a wife, young girls, and girl baby
+   children) are getting harassed, molested, assaulted, and violated at various places all over the country. Areas like streets,
+   public spaces, public transport, etc have been the territory of women hunters. Girl students studying in the schools or
+   colleges have to shield themselves through books or bags or they have to wear clothes which can cover them completely.
+   In some cases a girl child is sale by her parents just to earn some money. Girls generally face acid attacks on the
+   streets and kidnapping for the sex purpose by strangers. According to the statistics, it is found that a woman is raped
+   in India every 20 minutes."
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

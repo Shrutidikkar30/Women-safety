@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        app:srcCompat="@drawable/homepage" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/phonecard"
+        android:layout_width="wrap_content"
+        android:layout_height="157dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="357dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="0dp"
+            android:text="Phone"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_baseline_call_24" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/locationcard"
+        android:layout_width="171dp"
+        android:layout_height="158dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="357dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="0dp"
+            android:text="Location"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="84dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_baseline_location_on_24" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/blogcard"
+        android:layout_width="171dp"
+        android:layout_height="160dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="187dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="0dp"
+            android:text="Blog/Article"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="77dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_outline_insert_drive_file_24" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/contactcard"
+        android:layout_width="183dp"
+        android:layout_height="161dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="190dp"
+        android:layout_marginBottom="188dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="0dp"
+            android:text="Contact"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="85dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_baseline_contacts_24" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/helpcard"
+        android:layout_width="181dp"
+        android:layout_height="147dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="25dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="0dp"
+            android:text="Help"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="73dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_outline_emoji_people_24" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
